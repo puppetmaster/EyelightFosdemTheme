@@ -1,0 +1,72 @@
+layout: 2_columns;
+foot_text :" Atton Jonathan, jonathan.atton@gmail.com";
+foot_image: "logo_univ.gif";
+header_image: "logo.png";
+
+transition: fade_content;
+
+slide
+{
+    layout: title;
+    header_image: "logo_big.png";
+    title: " Présentation de stage de fin d'année";
+    subtitle: " Réalisé dans l'entreprise Calaos.";
+    area
+    {
+        name: bottom;
+        text: " Autheur: ATTON Jonathan, jonathan.atton@gmail.com";
+        text: " Stage réalisé durant le M2 informatique Ingénieurie du logiciel";
+        text: " à l'université des sciences de Nancy";
+        text: " Mentor : M. HECKY Raoul";
+    }
+}
+
+slide {
+        layout: "blank";
+        title: " L'entreprise Calaos";
+        custom_area: "center" 0.11 0.25 0.9 0.6;
+        custom_area: "bottom" 0.2 0.65 0.8 0.77;
+        area {
+                name: "center";
+                items {
+                        text: " Calaos est une jeune entreprise, 3 ans";
+                        text: " Fondateurs : M. Hecky Raoul et M. Wolf Jean-Marc";
+                        text: " Création d'un <outline>système domotique</outline> complet à destination des particuliers";
+                }
+        }
+        area {
+                name: "bottom";
+                image: "logo_big_black.png";
+        }
+}
+
+slide {
+        layout: "blank";
+        title: " Un système domotique";
+
+        custom_area: "center" 0.11 0.25 0.7 0.8;
+        custom_area: "wago" 0.73 0.25 0.9 0.42;
+        custom_area: "serveur" 0.73 0.42 0.9 0.59;
+        custom_area: "ecran" 0.73 0.59 0.9 0.76;
+
+        subtitle: " La base du système";
+        area {
+                name: "center";
+                text: " Un <outline>Automate électronique</outline> programmable";
+                text: " Un <outline>serveur</outline> de type PC";
+                text: " Un <outline>écran tactile</outline> permettant un contrôle de la maison";
+        }
+        area {
+                name: "wago";
+                image: "wago.jpg";
+        }
+        area {
+                name: "serveur";
+                image: "calaos_serveur.jpg";
+        }
+        area {
+                name: "ecran";
+                image: "calaos_ecran.jpg";
+        }
+}
+
