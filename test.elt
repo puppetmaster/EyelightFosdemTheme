@@ -7,7 +7,7 @@ transition: fade_content;
 
 slide
 {
-    layout: title;
+    layout: "title";
     header_image: "logo_big.png";
     title: " Présentation de stage de fin d'année";
     subtitle: " Réalisé dans l'entreprise Calaos.";

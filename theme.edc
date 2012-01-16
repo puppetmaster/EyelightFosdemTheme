@@ -307,6 +307,7 @@ images
     image: "pause_glow.png" COMP;
     image: "pause_select.png" COMP;
     image: "stop.png" COMP;
+    image: "client_logo.png" COMP;
     image: "stop_glow.png" COMP;
     image: "stop_select.png" COMP;
     image: "slider_back.png" COMP;
@@ -354,7 +355,8 @@ styles {
     }
     style {
         name: "subtitleStyle";
-        base: "font=DejaVuSans font_size=20 align=center valign=bottom color=#ffffff  wrap=word style=soft_outline outline_color=#000000";
+//        base: "font=DejaVuSans font_size=20 align=center valign=bottom color=#ffffff  wrap=word style=soft_outline outline_color=#000000";
+        base: "font=DejaVuSans_Oblique font_size=20 align=center valign=0.0 wrap=word style=glow glow_color=#747474 color=#f0ede4";
         tag_list();
     }
     style {
@@ -645,7 +647,7 @@ collections
                     max: 24 24;
                     rel1.relative: 1.0 0.0;
                     rel1.to_x: "depth";
-                    rel1.offset: 0 7;
+                    rel1.offset: 0 0;
                     align: 0 0;
                     image.normal: "item_00.png";
                 }
@@ -1806,6 +1808,22 @@ collections
                 }
             }
             edit();
+
+            part
+            {
+                name :"object.foot_logo";
+                type: IMAGE;
+                description 
+                {
+                    state : "default" 0.0;
+                    //rel1.relative: 0.0 0.0;
+                    rel1.relative: 0.0 0.0;
+                    rel1.to_x: "object.foot_image";
+                    //rel2.relative: 0.5 0.9;
+                    rel2.relative: 0.5 0.9;
+                    image.normal: "client_logo.png";
+                }
+            }
         }
     }
     group
