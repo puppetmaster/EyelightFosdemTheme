@@ -1,0 +1,433 @@
+layout: 2_columns;
+foot_text : "Philippe Caseiro &amp; Tom Hacohen";
+foot_image: "logo.png";
+header_image: "logo.png";
+
+transition: fade_content;
+
+slide
+{
+    layout: "title";
+    header_image: "logo_big.png";
+    title: "How to Start and Succeed with the EFL";
+    subtitle: "From two different perspectives.";
+}
+
+slide {
+        layout: "blank";
+        title: "Who we are";
+        custom_area: "center" 0.11 0.25 0.9 0.6;
+        custom_area: "bottom" 0.2 0.65 0.8 0.77;
+        subtitle : "The newbie: Philippe Caseiro"; 
+        area {
+                name: "center";
+                items {
+                        text: "Unix and GNU/Linux System Engineer for Cadoles";
+                        // FIXME: Is contact information really relevant?
+                        text: "<b>http://www.cadoles.com</b>";
+                        text: "President of Enligthement french association";
+                        text: "Etwitt/Ebird developer <i>https://github.com/puppetmaster/etwitt</i>";
+                }
+        }
+        area {
+                name: "bottom";
+                image: "client_logo.png";
+        }
+}
+
+slide {
+        layout: "blank";
+        title: "Who we are";
+        custom_area: "center" 0.11 0.25 0.9 0.6;
+        custom_area: "bottom" 0.2 0.65 0.8 0.77;
+        subtitle : "The veteran: Tom Hacohen"; 
+        area {
+                name: "center";
+                items {
+                        text: "Core developer for the EFL.";
+                        text: "Currently works at Samsung on the EFL.";
+                }
+        }
+        area {
+                name: "bottom";
+                image: "client_logo.png";
+        }
+}
+
+slide {
+    layout: "blank";
+    title: "EFL - Brief Overview";
+    custom_area: "center" 0.11 0.50 0.9 0.6;
+    custom_area: "picture" 0.1 0.30 0.9 0.8;
+    subtitle: "Enlightenment Foundation Libraries";
+    area {
+        name : "picture";
+        image : "efl_diagramme.png";
+    }
+}
+
+slide
+{
+    layout: "title";
+    header_image: "logo_big.png";
+    title: "The Newbie Perspective";
+    subtitle: "By Philippe Caseiro";
+}
+
+slide {
+        layout: "blank";
+        title: "Why I started using the EFL";
+
+        custom_area: "center" 0.11 0.50 0.9 0.6;
+        custom_area: "picture" 0.25 0.30 0.9 0.76;
+
+        subtitle: "The story is:";
+        area {
+                name: "center";
+                items {
+                   text: "One day I was just ...";
+        //           text: "The truth is ...";
+                }
+        }
+        area {
+                name: "picture";
+                image : "bored.jpg";
+        }
+}
+
+slide {
+        layout: "blank";
+        title: "Why I started using the EFL";
+
+        custom_area: "center" 0.11 0.50 0.9 0.6;
+        custom_area: "picture" 0.1 0.20 0.9 0.79;
+
+        subtitle: "I whant something new";
+        area {
+                name: "picture";
+                image : "gtk1.png";
+        }
+}
+
+slide {
+        layout: "blank";
+        title: "Why I started using the EFL";
+
+        custom_area: "center" 0.11 0.50 0.9 0.6;
+        custom_area: "picture" 0.1 0.20 0.9 0.79;
+
+        subtitle: "I whant something new";
+        area {
+                name: "picture";
+                image : "gtk2.png";
+        }
+}
+
+
+slide
+{
+	layout: 1_area;
+    layout: "blank";
+    title: "Why I started using the EFL";
+
+	area {
+		name : "center";
+		layout: "horizontal";
+		image {
+			image: "ennaex2.png";
+ 		      	border: 0;
+		      	shadow: 0;
+		}
+	}
+}
+
+slide
+{
+    layout: 1_area;
+    layout: "blank";
+    title: "Why I started using the EFL";
+
+    area{
+		name : "center";
+		layout: "horizontal";
+		image {
+			image: "ennaex1.png";
+            border: 0;
+            shadow: 1;
+		}
+    }
+}
+
+
+slide {
+    layout: "blank";
+    title : "How to find answers";
+    subtitle : "and where...";
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        items{
+            text: "The places to get live answers";
+            items {
+                text: "IRC Channels";
+                items {
+                    text: "#e";
+                    text: "#edevelop";
+                    text: "#e.fr";
+                }
+            }
+            text : "The places to find documentation";
+            items {
+                text : "The documentation center";
+                items{
+                    text: "http://docs.enlightenment.org";
+                }
+                text : "The SVN repository";
+                items{
+                    text: "http://trac.enlightenment.org/e/browser/trunk";
+                }
+                text : "The french community website";
+                items{
+                    text: "http://www.enlightenment.fr";
+                }
+            }
+        }
+    }
+
+}
+
+slide {
+    layout: "blank";
+    title: "A more in depth overview";
+    custom_area: "center" 0.11 0.50 0.9 0.6;
+    custom_area: "picture" 0.1 0.20 0.9 0.9;
+    subtitle: "The documentation center";
+    area {
+        name : "picture";
+        image : "doc_center.png";
+    }
+}
+
+
+slide {
+    layout: "blank";
+    title: "Writing an application";
+
+    
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        items{
+            text : "What I want to do?";
+            text : "Which part of the EFL should I use?";
+            // FIXME: I don't understand
+            text : "What is the target? (no this is not an issue with EFL)";
+        }
+    }
+}
+
+slide {
+
+    layout: "blank";
+    title: "Let's Get Down to Business";
+    subtitle: "Coding a Twitter client with EFL!";
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+    
+    area{
+        name: "center";
+        items{
+            text: "Which parts of the EFL should I use?";
+            text: "I need data structures, like lists";
+            items{
+                text: "I could use Eina";
+            }
+            text: "I need network communication";
+            items{
+                text: "I could use Ecore_Con";
+            }
+            // FIXME: I don't really agree with the next 2
+            text: "I need a GUI!";
+            items{
+                text: "I could use Edje";
+            }
+            text: "I need to code this GUI Fast";
+            items{
+                text: "I could use Elementary";
+            }
+        }
+    }
+}
+
+slide
+{
+    layout: "title";
+    header_image: "logo_big.png";
+    title: "The Veteran Perspective";
+    subtitle: "by Tom Hachoen";
+}
+
+slide {
+    layout: "blank";
+    title: "The Important Concepts";
+
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        text : "Things to keep in mind when working with the EFL";
+        items{
+            text : "Cross device UI";
+            text : "Themes (Edje)";
+            text : "Environment profiles";
+            text : "Gesture layer";
+            text : "Cool features";
+            text : "Important guidelines";
+        }
+    }
+}
+
+slide {
+    layout: "blank";
+     // FIXME: Rename!!!! (also in the other place) 
+    title: "Cross Device UI";
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        text : "One design to rule them all...";
+        items{
+            text : "Relative interface design";
+            text : "Finger friendliness";
+            text : "Finger size";
+            text : "Interface scaling";
+        }
+    }
+}
+
+slide {
+    layout: "blank";
+    title: "Themes (Edje)";
+    // FIXME: Put the edje example inline? Or as an outside example?
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        items{
+            text : "Very powerful theme engine";
+            text : "Can change the theme without changing the code";
+            text : "Can completely change the UI look and behaviour";
+            text : "Compiled format, fast and efficient to load.";
+        }
+    }
+}
+
+slide {
+    layout: "blank";
+    title: "Environment Profiles";
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        items{
+            text : "Profiles for everything, e.g:";
+            items {
+               text : "Small touch device";
+               text : "Desktops";
+               text : "PS3";
+               text : "...";
+            }
+            text : "Various rendering engines:";
+            items {
+               text : "Software X11";
+               text : "OpenGL X11";
+               text : "Framebuffer";
+               text : "...";
+            }
+            text : "Set engine, scale, finger size and etc.";
+            text : "Set widget behaviours";
+        }
+    }
+}
+
+slide {
+    layout: "blank";
+    title: "Gesture Layer";
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        items{
+            text : "Not really a gesture layer... :)";
+            text : "Uniformly extracts what the user wants from what he does";
+            items{
+               text : "Pinch -> Zoom out";
+               text : "Pressing a specific button -> Rotate";
+               text : "Ctrl + Mouse Scroll -> Zoom";
+            }
+            text : "A way for programmers to not care about the platform";
+            text : "No need to specifically (inconsistently?) handle in code.";
+        }
+    }
+}
+
+slide {
+    layout: "blank";
+    title: "Cool Features";
+
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        items{
+            text : "Everything is async";
+            text : "Alpha channels";
+            text : "3D transformations";
+            text : "Designed for all devices";
+            text : "Fast";
+            text : "Low memory footprint";
+        }
+    }
+}
+
+slide {
+    layout: "blank";
+    title: "Important Guidelines";
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        items{
+            text : "Avoid workarounds";
+            text : "Communicate and ask";
+        }
+    }
+}
+
+
+slide {
+    layout: "blank";
+    title: "Questions?";
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        text : "Questions?";
+        text : "Also, our contact details:";
+        items{
+            text : "Philippe Caseiro &lt;pcaseiro@cadoles.com&gt;";
+            text : "Tom Hacohen &lt;tom@stosb.com&gt;";
+        }
+    }
+}
