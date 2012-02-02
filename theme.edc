@@ -447,7 +447,7 @@ part                                    \
     {                               \
         state: "default" 0.0;   \
         visible: 1;             \
-        color: 0 0 0 255;       \
+        color: 255 255 255 255;       \
         rel1.to: "slide";       \
         rel2.to: "background_top"; \
         rel2.relative: 1.0 0.0; \
@@ -497,7 +497,7 @@ part                                    \
     {                               \
         state: "default" 0.0;   \
         visible: 1;             \
-        color: 0 0 0 255;       \
+        color: 255 255 255 210;       \
         rel2.to: "slide";       \
         rel1.to: "background_bottom"; \
         rel1.relative: 0.0 1.0; \
