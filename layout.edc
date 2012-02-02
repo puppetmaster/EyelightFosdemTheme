@@ -7,7 +7,7 @@ custom_area("custom",0.0,0.0,1.0,1.0,"stack")
 #define default_area_data(s) \
 item: "areas" "title subtitle header_image foot_image foot_text pages "s; \
 item: "title" "0.01 0.01 0.8 0.1";\
-item: "subtitle" "0.6 0.15 0.99 0.2";\
+item: "subtitle" "0.5 0.15 0.99 0.20";\
 item: "header_image" "0.95 0.1 0.99 0.15";\
 item: "foot_image" "0.03 0.9 0.2 0.995";\
 item: "foot_text" "0.22 0.95 0.72 1.0"; \
