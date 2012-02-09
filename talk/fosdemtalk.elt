@@ -102,7 +102,7 @@ slide {
         custom_area: "center" 0.11 0.50 0.9 0.6;
         custom_area: "picture" 0.1 0.20 0.9 0.79;
 
-        subtitle: "I whant something new";
+        subtitle: "I want something new";
         area {
                 name: "picture";
                 image : "gtk1.png";
@@ -116,7 +116,7 @@ slide {
         custom_area: "center" 0.11 0.50 0.9 0.6;
         custom_area: "picture" 0.1 0.20 0.9 0.79;
 
-        subtitle: "I whant something new";
+        subtitle: "I want something new";
         area {
                 name: "picture";
                 image : "gtk2.png";
@@ -279,14 +279,33 @@ slide {
 
     area {
         name: "center";
-        text : "Things to keep in mind when working with the EFL";
+        text : "Follow these concepts, and your road to success with the EFL will be short and easy.";
+
         items{
-            text : "Cross device UI";
             text : "Themes (Edje)";
+            text : "Cross device UI";
             text : "Environment profiles";
             text : "Gesture layer";
             text : "Cool features";
             text : "Important guidelines";
+        }
+    }
+}
+
+slide {
+    layout: "blank";
+    title: "Themes (Edje)";
+    // FIXME: Put the edje example inline? Or as an outside example?
+
+    custom_area: "center" 0.11 0.30 0.9 0.76;
+
+    area {
+        name: "center";
+        items{
+            text : "Edje is a very powerful theme engine";
+            text : "Can change the theme without changing the code";
+            text : "Can completely change the UI look and behaviour";
+            text : "Compiled format, fast and efficient to load";
         }
     }
 }
@@ -306,24 +325,6 @@ slide {
             text : "Finger friendliness";
             text : "Finger size";
             text : "Interface scaling";
-        }
-    }
-}
-
-slide {
-    layout: "blank";
-    title: "Themes (Edje)";
-    // FIXME: Put the edje example inline? Or as an outside example?
-
-    custom_area: "center" 0.11 0.30 0.9 0.76;
-
-    area {
-        name: "center";
-        items{
-            text : "Very powerful theme engine";
-            text : "Can change the theme without changing the code";
-            text : "Can completely change the UI look and behaviour";
-            text : "Compiled format, fast and efficient to load.";
         }
     }
 }
@@ -389,12 +390,14 @@ slide {
     area {
         name: "center";
         items{
-            text : "Everything is async";
-            text : "Alpha channels";
+// ?            text : "Everything is async";
             text : "3D transformations";
+            text : "Alpha channels";
             text : "Designed for all devices";
             text : "Fast";
             text : "Low memory footprint";
+            text : "Beautiful";
+            text : "You can easily draw whatever you want on top of the UI";
         }
     }
 }
